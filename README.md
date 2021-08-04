@@ -15,9 +15,22 @@ From the dataset there was a healthy amount of options to choose from, but basin
 
 **Corraling Correlations and Transforming Data**
 
+Keeping the transformation train going on our data, the next step was to log transform price followed by getting dummy variables for our categorical columns (specifically grade and condition). These changes helped our model by creating more of an apples to apples situation between the variables as well as making sure that the subgroups of the sample are represented. Lastly, interactions were checked among our x variables to ensure that if there was an interaction in our model, that it had a positive influence on it. It should be noted however, that just because a variable may be correlated does not necessarily mean that they interact. Shown in the graph below is the positive interaction between the x variables living and lot.
 
+!![InteractionBetweenLiving Lot](https://user-images.githubusercontent.com/79724188/128173825-bd5d0865-a28a-4063-a0a2-4aa77b764e35.png)
 
 **Final Model**
 
+At the end of the modifications to the model, to ensure that it was predicting our results accurately and confidently, a QQ plot and a normality plot were made. These demonstrate the residuals are looking nice and normally distributed. This is a good sign that this means there aren't any high or low outliers as well as variances that are relatively equal. 
+
+![QQPlot](https://user-images.githubusercontent.com/79724188/128173962-9dbafd2f-a747-4051-b6ad-c92d3ed1fce1.png)
+![NormalityPlot](https://user-images.githubusercontent.com/79724188/128173978-53e8f69d-e39a-46b1-bfc5-f39b4dd6a576.png)
+
+Furthermore, below is the final model and it's test/train split results.
+
+![FinalModelSklearn](https://user-images.githubusercontent.com/79724188/128174118-21d5ae7d-dc19-4fe6-886c-b2c16ac3d9e5.png)
+![FinalModelOLS](https://user-images.githubusercontent.com/79724188/128174141-76bc3eaf-62e8-4e32-a508-a149144d9ff2.png)
 
 **Conclusion**
+
+With the final model it is evident that 44.7% of the variations in the dependent variable y (price) are explained by the independent variables in our model. Also, the root mean squared error (RMSE) for our model showed that the predicted difference between values and it's actual values were quite close with Train RMSE equaling roughly 0.314 and the Test RMSE coming out to be around 0.318. This indicates that our model is adequate in predicting home prices for new time buyers in the King County area of Washington.
