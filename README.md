@@ -1,6 +1,6 @@
 ## Housing Insights for the King County, WA Area
 
-Buying a house can be a tricky process, extremely for first time buyers. If only there was something that could be done to make it easier! Well luckily for the people wanting to purchase a home in King County, there is! With a mupltiple linear regression model, data can be filtered to predict a price within certain grading and condition ranges that new householders can use. Below we'll go through the process of how the model was formed as well as include what criteria was used.
+Buying a house can be a tricky process, extremely for first time buyers. If only there was something that could be done to make it easier! Well luckily for the people wanting to purchase a home in King County, there is! With a multiple linear regression model, data can be filtered to predict a price within certain grading and condition ranges that new householders can use. Below we'll go through the process of how the model was formed as well as include what criteria was used.
 
 **Methodology**
 
