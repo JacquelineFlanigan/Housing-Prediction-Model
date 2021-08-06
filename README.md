@@ -28,8 +28,8 @@ At the end of the modifications to the model, to ensure that it was predicting o
 
 Furthermore, below is the final model and it's test/train split results.
 
-![FinalModelOLS](https://user-images.githubusercontent.com/79724188/128174141-76bc3eaf-62e8-4e32-a508-a149144d9ff2.png)
-![FinalModelSklearn](https://user-images.githubusercontent.com/79724188/128174118-21d5ae7d-dc19-4fe6-886c-b2c16ac3d9e5.png)
+![FinalModelOLS](https://user-images.githubusercontent.com/79724188/128440170-af2044ad-81d0-4647-ad16-8388b4747917.png)
+![FinalModelSklearn](https://user-images.githubusercontent.com/79724188/128440182-ccd88d3e-ebb8-4694-a2b3-ff328102e3c1.png)
 
 **Conclusion**
 
