@@ -33,4 +33,4 @@ Furthermore, below is the final model and it's test/train split results.
 
 **Conclusion**
 
-With the final model it is evident that 44.7% of the variations in the dependent variable y (price) are explained by the independent variables in our model. Also, the root mean squared error (RMSE) for our model showed that the predicted difference between values and it's actual values were quite close with Train RMSE equaling roughly 0.314 and the Test RMSE coming out to be around 0.318. This indicates that our model is adequate in predicting home prices for new time buyers in the King County area of Washington.
+With the final model it is evident that 44.7% of the variations in the dependent variable y (price) are explained by the independent variables in our model. Also, the root mean squared error (RMSE) for our model showed that the predicted difference between values and it's actual values were quite close with Train RMSE equaling roughly 143595.06 and the Test RMSE coming out to be around 143352.60. This indicates that our model is adequate in predicting home prices for new time buyers in the King County area of Washington.
